@@ -175,14 +175,14 @@ describe('User Endpoints', function () {
           name: 'French',
           total_score: 0,
           words: [
-            { original: 'entraine toi', translation: 'practice' },
             { original: 'bonjour', translation: 'hello' },
-            { original: 'maison', translation: 'house' },
-            { original: 'développeur', translation: 'developer' },
-            { original: 'traduire', translation: 'translate' },
-            { original: 'incroyable', translation: 'amazing' },
-            { original: 'chien', translation: 'dog' },
-            { original: 'chat', translation: 'cat' },
+            { original: 'parler', translation: 'to speak' },
+            { original: 'aider', translation: 'to help' },
+            { original: 'programmation', translation: 'to program' },
+            { original: 'aller', translation: 'to go' },
+            { original: 'ecoute', translation: 'to listen' },
+            { original: 'fumer', translation: 'to smoke' },
+            { original: 'manger', translation: 'to eat' },
           ]
         }
         return supertest(app)
